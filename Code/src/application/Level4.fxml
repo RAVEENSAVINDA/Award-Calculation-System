@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="763.0" styleClass="Pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Level4Controller">
+   <children>
+      <Label layoutX="319.0" layoutY="14.0" text="LEVEL 04">
+         <font>
+            <Font name="Tahoma Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="57.0" prefHeight="23.0" prefWidth="79.0" text="Module No:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="58.0" text="Module Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="58.0" text="Exam Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="452.0" layoutY="58.0" text="Exam Mark">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="91.0" text="01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="159.0" text="02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="199.0" text="03">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="245.0" text="04">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="287.0" text="05">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="330.0" text="06">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="91.0" text="Software Development Principles 01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="159.0" text="Communication &amp; Career Management ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="200.0" text="Computer System Fundamentals">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="104.0" layoutY="245.0" text="Information and Data Modeling">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="287.0" text="Information Systems">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="330.0" text="Software Development Principles 02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="475.0" layoutY="102.0" />
+      <Label layoutX="347.0" layoutY="181.0" text="Presentation">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="159.0" text="Portfolio">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="203.0" text="ICT 01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="225.0" text="ICT 02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="245.0" text="ICT 01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="266.0" text="ICT 02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="288.0" text="ICT 01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="309.0" text="ICT 02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="330.0" text="ICT 01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="352.0" text="ICT 02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="374.0" text="ICT 03">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="markTxt0" alignment="CENTER" layoutX="459.0" layoutY="93.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt1" alignment="CENTER" layoutX="459.0" layoutY="115.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt2" alignment="CENTER" layoutX="459.0" layoutY="137.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt3" alignment="CENTER" layoutX="459.0" layoutY="160.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt4" alignment="CENTER" layoutX="459.0" layoutY="180.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt5" alignment="CENTER" layoutX="459.0" layoutY="201.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt6" alignment="CENTER" layoutX="459.0" layoutY="221.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt7" alignment="CENTER" layoutX="459.0" layoutY="242.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt8" alignment="CENTER" layoutX="459.0" layoutY="263.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt9" alignment="CENTER" layoutX="459.0" layoutY="285.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt10" alignment="CENTER" layoutX="459.0" layoutY="306.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt11" alignment="CENTER" layoutX="459.0" layoutY="328.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt12" alignment="CENTER" layoutX="459.0" layoutY="350.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="markTxt13" alignment="CENTER" layoutX="459.0" layoutY="372.0" prefHeight="23.0" prefWidth="50.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnLevel4Next1" layoutX="344.0" layoutY="549.0" mnemonicParsing="false" onAction="#initialMarksInputL4" text="Next">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="348.0" layoutY="93.0" text="ICT 01">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="114.0" text="ICT 02">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="136.0" text="ICT 03">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="59.0" text="Attempt">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="621.0" layoutY="59.0" text="Status">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod1Status" alignment="CENTER" layoutX="621.0" layoutY="92.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod2Status" alignment="CENTER" layoutX="621.0" layoutY="157.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod3Status" alignment="CENTER" layoutX="621.0" layoutY="201.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod4Status" alignment="CENTER" layoutX="621.0" layoutY="239.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod5Status" alignment="CENTER" layoutX="621.0" layoutY="286.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod6Status" alignment="CENTER" layoutX="621.0" layoutY="328.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod1Atmpt" alignment="CENTER" layoutX="546.0" layoutY="91.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod2Atmpt" alignment="CENTER" layoutX="546.0" layoutY="160.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod3Atmpt" alignment="CENTER" layoutX="546.0" layoutY="201.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod4Atmpt" alignment="CENTER" layoutX="546.0" layoutY="243.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod5Atmpt" alignment="CENTER" layoutX="546.0" layoutY="285.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Mod6Atmpt" alignment="CENTER" layoutX="546.0" layoutY="328.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="59.0" text="Condoned">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="53.0" layoutY="424.0" text="Level Status">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="526.0" text="Eligibility to Level 05">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="49.0" layoutY="546.0" text="Eligibility to CertHE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="50.0" layoutY="505.0" text="Exclution Status">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="445.0" text="Level Credits">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="465.0" text="Condoned Credits">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="484.0" text="Level Average">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="49.0" layoutY="567.0" text="CertHE Classification">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Status" layoutX="210.0" layoutY="424.0" prefHeight="19.0" prefWidth="50.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Credits" layoutX="210.0" layoutY="445.0" prefHeight="19.0" prefWidth="50.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCondCredits" layoutX="210.0" layoutY="465.0" prefHeight="19.0" prefWidth="50.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL4Avg" layoutX="210.0" layoutY="484.0" prefHeight="19.0" prefWidth="50.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblExclusionL4" layoutX="211.0" layoutY="505.0" prefHeight="19.0" prefWidth="230.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblL5Eligible" layoutX="210.0" layoutY="526.0" prefHeight="19.0" prefWidth="111.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCertHEEligible" layoutX="211.0" layoutY="546.0" prefHeight="19.0" prefWidth="111.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCertHEClass" layoutX="210.0" layoutY="567.0" prefHeight="19.0" prefWidth="111.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConSts1" alignment="CENTER" layoutX="696.0" layoutY="92.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConSts2" alignment="CENTER" layoutX="696.0" layoutY="157.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConSts3" alignment="CENTER" layoutX="696.0" layoutY="201.0" prefHeight="23.0" prefWidth="41.0" stylesheets="@application.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConSts4" alignment="CENTER" layoutX="696.0" layoutY="243.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConSts5" alignment="CENTER" layoutX="696.0" layoutY="285.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblConSts6" alignment="CENTER" layoutX="696.0" layoutY="328.0" prefHeight="23.0" prefWidth="41.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLevel4Next2" layoutX="400.0" layoutY="549.0" mnemonicParsing="false" onAction="#secondMarksInputL4" prefHeight="37.0" prefWidth="56.0" text="Next" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblMsgL4" layoutX="425.0" layoutY="465.0" prefHeight="20.0" prefWidth="315.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLevel4Next3" layoutX="456.0" layoutY="549.0" mnemonicParsing="false" onAction="#thirdMarksInputL4" text="Next" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLevel4Exit" layoutX="686.0" layoutY="549.0" mnemonicParsing="false" onAction="#exitAction" text="Exit">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLevel4Next4" layoutX="512.0" layoutY="549.0" mnemonicParsing="false" onAction="#fourthMarksInputL4" text="Next" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLevel4Next5" layoutX="568.0" layoutY="549.0" mnemonicParsing="false" onAction="#Level5Approve" text="Next" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
